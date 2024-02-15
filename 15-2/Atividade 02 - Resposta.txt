@@ -1,0 +1,5 @@
+- Qual a melhor equipe de 4 pessoas para uma empresa? 
+A melhor equipe, pensando em 4 pessoas e nos custos, seria os dois desenvolvedores e dois dev's plenos, onde um desenvolveria a parte técnica e auxiliaria os demais devs, enquanto o outro cuida da parte interpessoal, ponte com o cliente, gestão do projeto e algumas partes de desenvolvimento menores.
+
+- O que esta pergunta tem a ver com a nossa disciplina?
+A princípio, a faculdade é projetada para desenvolvermos conhecimento sobre a área de tecnologia. Como a ideia da disciplina é realizar as atividades em grupo, pessoas com diferentes características vão se juntar para desenvolvê-las. Essas características serão desenvolvidas e aplicadas durante as aulas.
