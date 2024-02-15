@@ -1,0 +1,7 @@
+Levando em conta a abstração necessária para realizar a atividade e sua complexidade, a equipe desenvolveu os seguintes pontos quanto a diferença de salários:
+
+A principal justificativa para a diferença de salário se dá pelo tempo de experiência na área, fator que gera um conhecimento prático e desenvolve o técnico. Tendo o ponto de partida o cargo de estagiário, que é um cargo focado na aprendizagem, provavelmente não estará entregando atividades mais complexas neste ponto, apenas aprendendo e se habituando às práticas e tecnologias da empresa.
+Já o Dev júnior é um cargo que consegue desenvolver as atividades propostas com auxílios esporádicos de um desenvolvedor mais experiente.
+Quanto as Dev's, acredito que a principal diferença entre os dois (10h e 8h) vem do conhecimento adquirido durante os cargos anteriores que são aplicados neste momento. Neste ponto, existem mais cobranças e atividades mais complexas, que demandam mais horas de desenvolvimento para finalizá-las.
+Os Dev's plenos chegaram nesse cargo após anos de carreira, tendo grande quantidade experiêcia, auxiliando os demais Dev's e dedicando seu tempo a desenvolver fluxos mais complexos. A diferença de carga horária se dá pelo mesmo motivo dos Dev's, a necessidade de tempo para desenvolver demandas mais complexas.
+Acredito que o Dev pleno com a carga horária indefinida, seja designado para casos mais extremos, que demandam um abundante conhecimento técnico e pratico, também pode ser chamado para auxiliar outros Dev's em suas atividades. 
