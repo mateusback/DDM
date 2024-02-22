@@ -6,3 +6,6 @@ As configurações deverão ser atualizadas manualmente pelo usuário, para auxi
 DIARIO DE AULA:
 Nome do aplicativo: SplashTeams
 
+Ao criar o proetto em Flutter em base temos diversas extensões que auxiliam no projeto, ele será executado através da pasta lib pelo arquivo 'main.dart' em que executara todo o projeto envolvido.
+Neste começo nós vamos apenas rodar algums comandos simples para começarmos a aprender a linguagem e nos adaptarmos à ela, por exemplo o projeto inteiro poderia ser iniciado pela opção acima do codigo que se chama 'Run',
+mas não é isso que queremos, então apenas iniciamos o codigo através de um ícone superior direito da tela, ou apertando a tecla de atalho (Ctrl + Alt + N)
