@@ -11,8 +11,9 @@ Neste começo nós vamos apenas rodar algums comandos simples para começarmos a
 mas não é isso que queremos, então apenas iniciamos o codigo através de um ícone superior direito da tela, ou apertando a tecla de atalho (Ctrl + Alt + N).
 Comandos basicos conhecidos em algumas linguagems como String, int, double, bool, mas diferente de outras linguagems o flutter, e aqui não é diferente, apenas nao existe o tipo de dado char, pois ja existe String para substituir, no caso fica sem uso o char quando se tem o String fazendo a mesma coisa, por isso tanto faz utilizar aspas simples ou aspas duplas, ja no caso da linguagem Java as aspas simples se referencia ao tipo char e a aspas duplas a String.
 O código 'var' pode ser utilizado para variaveis, ela se apropria ao valor do dado, se eu fizer um var = 10, ele se apropria ao valor int, assim funciona para String, double e etc. Assim nao precisamos necessariamente declarar o tipo da variavel com esse 'var'.
-As variaveis dinamicas (dynamic) podem se alterar a qualquer momento, tanto de String para inteiro, ou ao contrário. Funciona apenas em casos expecificos, como por exemplo, de algum dado concreto conseguir mudar de valor,
+As variaveis dinamicas (dynamic) podem ser alteraradas a qualquer momento, tanto de String para inteiro, ou ao contrário. Funciona apenas em casos expecificos, como por exemplo, de algum dado concreto conseguir mudar de valor,
 exemplo: o registro academico era apenas numeros inteiros e após alguns anos alteram para um valor String para melhorar a visibiliade dos registros.
+As variáveis constantes (const) nao alteram seus valores, consequentemente é uma variavel bem otimizada e, sao definidas em tempo de compilação, o codigo 'final' muito semelhante ao const, pois tambem nao altera o seu valor após definido, mas o são definidas em tempo de execução.
 
 Observações da aula:
 Variáveis são espaços na memoria em que reservamos para armazenar dados.
