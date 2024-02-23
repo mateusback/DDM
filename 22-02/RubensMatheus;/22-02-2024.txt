@@ -10,12 +10,16 @@ Ao criar o proetto em Flutter em base temos diversas extensões que auxiliam no 
 Neste começo nós vamos apenas rodar algums comandos simples para começarmos a aprender a linguagem e nos adaptarmos à ela, por exemplo o projeto inteiro poderia ser iniciado pela opção acima do codigo que se chama 'Run',
 mas não é isso que queremos, então apenas iniciamos o codigo através de um ícone superior direito da tela, ou apertando a tecla de atalho (Ctrl + Alt + N).
 Comandos basicos conhecidos em algumas linguagems como String, int, double, bool, mas diferente de outras linguagems o flutter, e aqui não é diferente, apenas nao existe o tipo de dado char, pois ja existe String para substituir, no caso fica sem uso o char quando se tem o String fazendo a mesma coisa, por isso tanto faz utilizar aspas simples ou aspas duplas, ja no caso da linguagem Java as aspas simples se referencia ao tipo char e a aspas duplas a String.
+O código 'var' pode ser utilizado para variaveis, ela se apropria ao valor do dado, se eu fizer um var = 10, ele se apropria ao valor int, assim funciona para String, double e etc. Assim nao precisamos necessariamente declarar o tipo da variavel com esse 'var'.
+As variaveis dinamicas (dynamic) podem se alterar a qualquer momento, tanto de String para inteiro, ou ao contrário. Funciona apenas em casos expecificos, como por exemplo, de algum dado concreto conseguir mudar de valor,
+exemplo: o registro academico era apenas numeros inteiros e após alguns anos alteram para um valor String para melhorar a visibiliade dos registros.
 
 Observações da aula:
 Variáveis são espaços na memoria em que reservamos para armazenar dados.
 Boas praticas, como: nomes de variáveis bem legiveis, e praticas de escrita de flutter (nao ter letras maíusculas, nao pode ter espaço e etc).
 A concatenação funciona com '$', mas por ser uma 'linguagem de preguiçoso' se abrevia bastante no print Ex:(  print('$nomeAluno $sobrenomeAluno');   ).
 Condição ternária em print com a formatação '$' Ex:(    print('$nomeAluno ${idade >= 18 ? 'nao precisa' : 'precisa'}');   ).
+o tipo var nao se pode alterar depois de se ter apropriado a algum valor, como por exemplo, declarar um valor String e alterar aquela mesma variavel para um valor inteiro.
 
 20:50 - 
    * Atividade 01
