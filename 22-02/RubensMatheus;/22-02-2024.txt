@@ -16,11 +16,11 @@ exemplo: o registro academico era apenas numeros inteiros e após alguns anos al
 As variáveis constantes (const) nao alteram seus valores, consequentemente é uma variavel bem otimizada e, sao definidas em tempo de compilação, o codigo 'final' muito semelhante ao const, pois tambem nao altera o seu valor após definido, mas o são definidas em tempo de execução.
 
 Observações da aula:
-Variáveis são espaços na memoria em que reservamos para armazenar dados.
-Boas praticas, como: nomes de variáveis bem legiveis, e praticas de escrita de flutter (nao ter letras maíusculas, nao pode ter espaço e etc).
-A concatenação funciona com '$', mas por ser uma 'linguagem de preguiçoso' se abrevia bastante no print Ex:(  print('$nomeAluno $sobrenomeAluno');   ).
-Condição ternária em print com a formatação '$' Ex:(    print('$nomeAluno ${idade >= 18 ? 'nao precisa' : 'precisa'}');   ).
-o tipo var nao se pode alterar depois de se ter apropriado a algum valor, como por exemplo, declarar um valor String e alterar aquela mesma variavel para um valor inteiro.
+-Variáveis são espaços na memoria em que reservamos para armazenar dados.
+-Boas praticas, como: nomes de variáveis bem legiveis, e praticas de escrita de flutter (nao ter letras maíusculas, nao pode ter espaço e etc).
+-A concatenação funciona com '$', mas por ser uma 'linguagem de preguiçoso' se abrevia bastante no print Ex:(  print('$nomeAluno $sobrenomeAluno');   ).
+-Condição ternária em print com a formatação '$' Ex:(    print('$nomeAluno ${idade >= 18 ? 'nao precisa' : 'precisa'}');   ).
+-O tipo var nao se pode alterar depois de se ter apropriado a algum valor, como por exemplo, declarar um valor String e alterar aquela mesma variavel para um valor inteiro.
 
 20:50 - 
    * Atividade 01
