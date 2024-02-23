@@ -1,2 +1,61 @@
 01) Defina um projeto
   - Estastícas do basquete.
+
+02) Escopo: O escopo do projeto é utilizar dados do usuário que pratica basquete para calcular sua evolução e mostrar ao usuário. O projeto tem como objetivo somar a quantidade de acertos e erros do jogador e transformá-los em dados onde mostre para o mesmo sua evolução com o passar do tempo, por exemplo: durante um mês inteiro o usuário praticou 3x na semana e anotou a quantidade de arremessos de 2 pontos e seus acertos, fez o mesmo com o arremesso de 3 pontos e bandejas básicas, o sistema então irá mostrar então a evolução do jogador durante esse mês e onde ele mais errou e quando ele teve a taxa maior de acertos e quando teve mais erros.
+
+NOME DO APLICATIVO: Overhand (Overhall - Estastícas do jogador na NBA || Hand - Porque o basquete é jogado com as mãos)
+
+PROJETO
+  - Criação do projeto - View - Command Palette > New Flutter Project.
+  - Pasta linux, macos, android e ios dificilmente vamos mexer.
+  - Nosso projeto será feito dentro da pasta lib.
+
+Voltando ao básico:
+  - Variável é um espaço na memória que é chamado pelo identificador (endereço de memória)
+    - Variável de valor: Guarda o valor, se altera o valor perdeu.
+    - Variável de referência: Guarda o endereço onde está os dados, a difença é que se copiar a de valor você não altera o valor da outra cópia, se alterar a de valor todos que tem essa referência é alterado o valor.
+
+Tipos de Variáveis:
+  - String
+  - int
+  - double
+  - bool
+
+Boas Práticas
+  - Nomes de variáveis tem que ter sentido.
+  - Padrões de escrita.
+    . Nomes simples, tudo minusculo: aluno.
+    . Nomes compostos, tudo minusculo e a primeira letra da próxima palavra em maisculo: 'nomeAluno'.
+    . Inglês ou português, mas nunca misturado.
+  - Concatenação: Concatenar uma string no projeto: print('${nomeAluno} ${sobreNomeAluno}');  o $ informa que é um processamento, em dart é possível utilizar: print('$nomeAluno $sobreNomeAluno'); Na documentação é recomendado utilizar da segunda forma (Somente em DART).
+  - Ternário (utilizar if e else deixa seu código mais legível): print('$nomeAluno ${idadeAluno >= 18 ? 'não precisa' : 'precisa'}');
+
+
+Exemplo:
+/**
+   * i) concatenação, 
+   *   print(nomeAluno + ' ' + sobreNomeAluno);
+   * 
+   * ii) interpolação simples 
+   *   print('$nomeAluno $sobreNomeAluno');
+   * 
+   * (iii) a interpolação com processamento
+   *    print('$nomeAluno ${idadeAluno >= 18 ? 'não precisa' : 'precisa'}');
+*/
+
+Atividade 01
+  a) Defina as seguintes variáveis e seus respectivos valores: 
+  displina, carga horária com casas decimais, professor responsável, 
+  se a disciplina está ativa e quantidade de alunos. 
+
+void main() {
+    String disciplina = 'Matemática';
+    double cargaHoraria = 80.0;
+    String professorResponsavel = 'Geronimo';
+    bool aDisciplina = true;
+    int quantidadeDeAlunos = 23;
+}
+
+  b) imprima todos os valores utilizando: i) concatenação, 
+  ii) interpolação simples e (iii) a interpolação com processamento
+     print('Nome da disciplina: ' + disciplina + '\nCarga Horaria: ' + '$cargaHoraria' + '\nProfessor Responsável: ' + professorResponsavel + '\nDiscplina ativa? ' + '$aDisciplina' + '\nQuantidade de alunos: ' '$quantidadeDeAlunos');
