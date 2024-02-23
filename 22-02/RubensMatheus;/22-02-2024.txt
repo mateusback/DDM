@@ -46,4 +46,19 @@ Observações da aula:
   '\nCargaHoraria: ${cargaHoraria} horas' +
   '\nDisciplina disponivel: ${disciplinaON == true ? 'sim' : 'não'}' +
   '\nQuantidade de alunos: $qntAlunos');
+
+// Atividade 03
+  // a) Refaça "Atividade 01" utilizando Inferência de Tipo.
+  //
+  var disciplina = 'Desenvolvimento de Dispositivos Móveis';
+  var cargaHoraria = 160.0;
+  var professor = 'Hélio Kamakawa';
+  var disciplinaON = true;
+  var qntAlunos = 25;
+
+/// Atividade 04
+  //Aplique o que aprendeu no seu projeto (dynamic).
+  dynamic periodoJogo = 4;
+  periodoJogo = 'quarto';
+  
 }
