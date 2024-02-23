@@ -8,4 +8,37 @@ Nome do aplicativo: SplashTeams
 
 Ao criar o proetto em Flutter em base temos diversas extensões que auxiliam no projeto, ele será executado através da pasta lib pelo arquivo 'main.dart' em que executara todo o projeto envolvido.
 Neste começo nós vamos apenas rodar algums comandos simples para começarmos a aprender a linguagem e nos adaptarmos à ela, por exemplo o projeto inteiro poderia ser iniciado pela opção acima do codigo que se chama 'Run',
-mas não é isso que queremos, então apenas iniciamos o codigo através de um ícone superior direito da tela, ou apertando a tecla de atalho (Ctrl + Alt + N)
+mas não é isso que queremos, então apenas iniciamos o codigo através de um ícone superior direito da tela, ou apertando a tecla de atalho (Ctrl + Alt + N).
+Comandos basicos conhecidos em algumas linguagems como String, int, double, bool, mas diferente de outras linguagems o flutter, e aqui não é diferente, apenas nao existe o tipo de dado char, pois ja existe String para substituir, no caso fica sem uso o char quando se tem o String fazendo a mesma coisa, por isso tanto faz utilizar aspas simples ou aspas duplas, ja no caso da linguagem Java as aspas simples se referencia ao tipo char e a aspas duplas a String.
+
+Observações da aula:
+Variáveis são espaços na memoria em que reservamos para armazenar dados.
+Boas praticas, como: nomes de variáveis bem legiveis, e praticas de escrita de flutter (nao ter letras maíusculas, nao pode ter espaço e etc).
+A concatenação funciona com '$', mas por ser uma 'linguagem de preguiçoso' se abrevia bastante no print Ex:(  print('$nomeAluno $sobrenomeAluno');   ).
+Condição ternária em print com a formatação '$' Ex:(    print('$nomeAluno ${idade >= 18 ? 'nao precisa' : 'precisa'}');   ).
+
+20:50 - 
+   * Atividade 01
+   * a) Defina as seguintes variáveis e seus respectivos valores: 
+   * displina, carga horária com casas decimais, professor responsável, 
+   * se a disciplina está ativa e quantidade de alunos. 
+   * b) imprima todos os valores utilizando: i) concatenação, 
+   * ii) interpolação simples e (iii) a interpolação com processamento
+   * 
+   * Atividade 02
+   * Aplique o que aprendeu no seu projeto.
+   */
+
+**RESOLVIDO:
+
+  String disciplina = 'Desenvolvimento de Dispositivos Móveis';
+  double cargaHoraria = 160.0;
+  String professor = 'Hélio Kamakawa';
+  bool disciplinaON = true;
+  int qntAlunos = 25;
+//b
+  print('Professor: ' + professor + '\nDisciplina: ' + disciplina +
+  '\nCargaHoraria: ${cargaHoraria} horas' +
+  '\nDisciplina disponivel: ${disciplinaON == true ? 'sim' : 'não'}' +
+  '\nQuantidade de alunos: $qntAlunos');
+}
