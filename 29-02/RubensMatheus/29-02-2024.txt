@@ -1,0 +1,42 @@
+29-02-2024 - Funções
+19:25: explicação de como funcionará a aula
+
+**DIARIO DE AULA**
+Matéria principal da aula: Funções
+
+-O input em dart é pelo comando 'stdin.readLineSync()', esse comando para realizar o input transforma todo seu valor atribuido em String, para utiliza-lo em outros tipos primitivos como inteiro, deve-se utilizar 
+cast para transformar aquela entrada String para o tipo em que preferir. Para funcionar deve utilizar bang '!' no final do input  'stdin.readLineSync()!', assim autorizando o usuario a manipular o código envolvendo esse
+input do jeito que bem entender.
+-Explicação de erros que acontecem em projetos, o erro NULL, acontece quando o projeto tem falta de tratar e falta de localizar o erro. Buscar procurar o erro em tempo de compilação. O flutter impoe algumas regras para
+nao deixar que isso aconteça. Um jeito de resolver isso seria tratando com um if, por exemplo: ( if (entradaIdade == null) {exeception} ). Assim tratando o possivel problema de valores nulos. Utilizando '?' em um 
+readLineSync()?.toUpperCase faz com que se o valor for nulo ele nao executara o toUpperCase.
+
+21:15
+
+
+*ATIVIDADE 1*
+
+ print('Nota A:');
+  var entradaNotaA = stdin.readLineSync()!;
+  var notaA = int.parse(entradaNotaA);
+
+  if (notaA >= 0 && notaA <= 10) {
+    print('nota B:');
+    var entradaNotaB = stdin.readLineSync()!;
+    var notaB = int.parse(entradaNotaB);
+
+    if (notaB >= 0 || notaB <= 10) {
+      var media = (notaA + notaB) / 2;
+      print('media das notas: $media');
+
+      if (media >= 6) {
+        print('Aluno aprovado');
+      } else {
+        print('Aluno reprovado');
+      }
+    } else {
+      print('Valor invalido');
+    }
+  } else {
+    print('Valor invalido');
+  }
