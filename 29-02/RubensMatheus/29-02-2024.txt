@@ -1,5 +1,17 @@
-29-02-2024 - Funções
+29-02-2024
+
+Conteúdo:
+- Bibliotecas; Leitura e entrada de dados no console; >>>Atividade 01<<<
+- Null Safety; tratamento adequado? origem do erro; erro de execução/compilação - depuração; 
+	operadores: !, ?, ?? 
+- Funções;
+- Tipos de Parâmetros; 
+	posicionais, opcionais - valor padrão, nomeados, nomeados obrigatórios
+	parâmetro do tipo função
+- Boas práticas (nomenclatura, legibilidade, acoplamento, ...)
+
 19:25: explicação de como funcionará a aula
+
 
 **DIARIO DE AULA**
 Matéria principal da aula: Funções
@@ -11,7 +23,8 @@ input do jeito que bem entender.
 nao deixar que isso aconteça. Um jeito de resolver isso seria tratando com um if, por exemplo: ( if (entradaIdade == null) {exeception} ). Assim tratando o possivel problema de valores nulos. Utilizando '?' em um 
 readLineSync()?.toUpperCase faz com que se o valor for nulo ele nao executara o toUpperCase.
 
-21:15
+21:15:
+
 
 
 *ATIVIDADE 1*
@@ -40,3 +53,17 @@ readLineSync()?.toUpperCase faz com que se o valor for nulo ele nao executara o 
   } else {
     print('Valor invalido');
   }
+
+*ATIVIDADE 2*
+Atividade 02
+a) Em programação o null é um problema? Explique.
+R:Sim, geralmente as variaveis e funções podem retornar diversos valores dependendo de como foram manipuladas, mas quando o valor é null é impossivel manipula-lo como uma variável com outro tipo de valor, ou seja
+acaba sendo um erro que precisa ser tratado.
+b) O que é null safety? para que serve? Quais são as vantagens e desvantagens?
+R: O null safety serve para prevenir que a variavel se torne nula utilizando o bang '?' para que o compilador reconheça que a variavel é nula ou não o que ajuda o codigo a prevenir futuros erros. ja o '!' que se utiliza para permitir que o próprio usuário tome suas decisões. No caso de algum código nao compilar por poder possuir problemas de valores nulos, se utilizar o bang '!' para nos dar autoridade para executar de qualquer forma. 
+Que se torna algo ruim pois ao se utilizar o bang no codigo voce fica vulneravel a vários erros caso possuir algum valor nulo.
+c) Faça um exemplo do uso incorreto de um dos operadores Null Safety.
+R: String? nome = stdin.readLineSync()?.ToUpperCase();
+d) Em relação ao Null Safety, quais são os operadores existentes? Para que serve cada uma. No contexto do seu projeto, escreva um exemplo do uso correto de cada operador.
+R: os operadores existentes são: !, ?, ??. Exemplo: "var entradaIdade = stdin.readLineSync()!" nos da autoridade para manipular essa variavel entradaIdade, que por padrao vem em String e precisaremos transforma-lo em numero inteiro, e para o compilador nao reclamar, isso nos da a autoridade para realiza-lo. Exemplo: "int? num1". esse null safety permite utilizarmos variaveis sem definir seu valor padrao e manipula-lo no código e o compilador nao reclamará do valor puder ser nulo pois ele reconhecerá se há algum tipo de valor na variável ou não. Exemplo "String entradaIdade = stdin.readLineSync()?? '0' ". Aqui nos estamos autorizando o valor padrao
+que haverá na variavel, mas que em caso dela ser nula será alterada para o valor 0.
