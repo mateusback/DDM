@@ -1,0 +1,9 @@
+Ao fazer o push, o git joga fora as bibliotecas para não ocupar espaço, por isso quando clonamos ele não trás as bibliotecas.
+
+Bibliotecas ao clonar o projeto: 
+
+No terminal digitar: flutter pub get
+  Caso tenha dado algum problema, digite: flutter pub clean
+
+pubspec.yaml é o arquivo que armazena as referências das bibliotecas externas, caso eu queira adicionar outra biblioteca, é necessário referencias lá.
+  
