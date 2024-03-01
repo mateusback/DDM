@@ -25,6 +25,7 @@ readLineSync()?.toUpperCase faz com que se o valor for nulo ele nao executara o 
 
 21:15:
 
+Tempo para tirar duvidas e re-organizar o código para estudo e aprendizado pessoal.
 
 
 *ATIVIDADE 1*
