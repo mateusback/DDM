@@ -1,1 +1,16 @@
+07/03/2024 - 19:25
+Conteúdo:
 
+- Tipos de Parâmetros; 
+	- posicionais; 
+		- regras-posição;  pq é obrigatório? vantagens/desvantagens; tipos nulos; tipo nulo não é opcional; nulo deve ser tratado;
+		- opcionais 
+			- valor padrão nulo e informado; regras básicas; quem é quem?
+	- nomeados, 
+		- sintaxe; pq é opcional? nomeados obrigatórios; nomeados e posicionais
+	- parâmetro do tipo função
+		- sintaxe; exemplo contextualizado; execução;
+	- funções anônimas
+		- sintaxe; exemplo contextualizado; execução;
+		>>quando usar ";" e ","<<
+	- testes unitários e boas práticas;
