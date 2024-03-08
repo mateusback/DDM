@@ -17,4 +17,6 @@ Conteúdo:
 - testes unitários e boas práticas;
 
 
--Mais exemplos de parametros, parametros nao obrigatórios, parametros posicionais, parametros nomeados 
+-Mais exemplos de parametros, parametros nao obrigatórios, parametros posicionais, parametros nomeados e parametro anonimo e exercicios.
+Aula destinada a compreenção plena de parametros em flutter. Tambem comentado sobre arrow function.
+Tempo destinado para validação e para aprimoramento do projeto.
