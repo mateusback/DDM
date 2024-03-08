@@ -6,4 +6,25 @@ No terminal digitar: flutter pub get
   Caso tenha dado algum problema, digite: flutter pub clean
 
 pubspec.yaml é o arquivo que armazena as referências das bibliotecas externas, caso eu queira adicionar outra biblioteca, é necessário referencias lá.
-  
+
+Diãrio de aula 07/03
+
+19h30: 
+	Métodos - dentro da classe
+	Funções - Fora da clase
+	
+	Parâmetro tipo posicional: a ordem dos valores importam e ele respeita a sequência das variáveis que é passado para a função.
+	
+	exemplo: 
+	
+	main () {
+		exibir();
+	}
+	
+	void exibir() {
+		print('Sua média de acertos foi: ${exemplo(10, 5)}')
+	}
+	
+	void exemplo(int arremessos, int acertos) {
+		double media = arremessos/acertos;
+	}
