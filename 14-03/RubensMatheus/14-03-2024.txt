@@ -1,0 +1,21 @@
+14/03/2024
+Conteudo da aula:
+- criar professor com 2 atributos
+- alterar atributos do professor para não nulos
+- alterar para contrutores nomeados	
+- criar um objeto aluno no print
+- alterar professor para ter atributos 
+  nulos e não nulos
+- alterar professor para ter um parameter function
+- criar um objeto professor com função nomeada
+- criar um objeto professor com função anônima
+- criar um objeto professor com arrow function 
+- criar um objeto professor com arrow function no print
+
+**Diario de Aula**
+-Criação e explicações sobre classes
+Vendo como se cria uma classe, como criar um construtor, utilizando parametros e referenciando atributos no construtor da classe.
+20:05 - Periodo destino a crição das classes para o nosso projeto, e tempo para tirar duvidas.
+retomando aula para ensinar os getters e setters em flutter, sintaxe: get -> int get z => _z; sett -> set z(int valor) => _z = valor;
+
+21:00 intervalo
