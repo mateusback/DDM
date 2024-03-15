@@ -18,4 +18,5 @@ retomando aula para ensinar os getters e setters em flutter, sintaxe: get -> int
 
 21:00 intervalo
 
-Atividade de classes para aprendizado pessoal até o final da aula
+Aula destinada a compreenção plena de classes. Tambem comentado sobre variavel anonima.
+Tempo destinado para validação e para aprimoramento do projeto.
